@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:presensi_app/screen/attandance_recap_screen.dart';
 import 'package:presensi_app/screen/splash_screen.dart';
-import 'package:intl/date_symbol_data_local.dart'; 
 
-Future<void> main() async {
+void main() {
   runApp(const MainApp());
-  //untuk format tanggal indonesia
-  await initializeDateFormatting('id', null);
 }
-gggggg
+
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
 

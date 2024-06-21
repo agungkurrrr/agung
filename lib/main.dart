@@ -7,7 +7,7 @@ Future<void> main() async {
   //untuk format tanggal indonesia
   await initializeDateFormatting('id', null);
 }
-
+gggggg
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
 
